@@ -32,7 +32,7 @@
           </button>
         </div>
         <div class="bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] rounded px-3 py-5 overflow-x-auto scrollbar-none">
-          <code class="font-mono text-[13px] leading-5 whitespace-nowrap"><span class="text-[#e8514f]">php artisan</span>{{ ' ' }}<span class="text-[#74d4ff]">{{ command.name }}</span><template v-if="synopsisArgs">{{ ' ' }}<span class="text-[#cad5e2]">{{ synopsisArgs }}</span></template></code>
+          <code class="font-mono text-[13px] leading-5"><span class="text-[#e8514f]">php artisan</span>{{ ' ' }}<span class="text-[#74d4ff]">{{ command.name }}</span><template v-if="synopsisArgs">{{ ' ' }}<span class="text-[#cad5e2]">{{ synopsisArgs }}</span></template></code>
         </div>
       </div>
 
